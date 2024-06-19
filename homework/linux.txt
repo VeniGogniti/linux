@@ -367,11 +367,6 @@ processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   
   744  ls
   745  cd -
   746  ls
-  747  grep -rni . processes.txt
-  748  grep -rni . processes.txt /bin
-  749  grep -rni . processes.txt "/bin"
-  750  grep -i "/bin" processes.txt
-  751  grep -rni "/bin" processes.txt
   752  grep -rni "/bin" >> processes.txt
   753  cat processes.txt
   754  ls
