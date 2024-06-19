@@ -309,7 +309,7 @@ processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   
   686  touch process.txt
   687  ls
   688  echo ps aux > process.txt
-  689  cat process.txt
+  689  cat processes.txt
   690  ps aux echo > process.txt
   691  ps aux -echo > process.txt
   692  ps aux -name > process.txt
