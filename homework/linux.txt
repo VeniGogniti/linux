@@ -360,7 +360,7 @@ processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   
   737  grep -rni . > selected.txt
   738  ls
   739  cat selected.txt
-  752  grep -rni "/bin" >> processes.txt
+  752  grep -rni "/bin" >> selected.txt
   753  cat processes.txt
   754  ls
   755  cd backup
