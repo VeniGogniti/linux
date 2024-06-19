@@ -306,7 +306,7 @@ processes.txt:214:stefx       4424  0.0  0.0  10692  6064 pts/2    Ss   06:38   
 processes.txt:228:stefx       9475  0.3  0.6 914180 112664 ?       Sl   06:48   1:47 /usr/bin/qterminal
 processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   0:38 /usr/bin/zsh
   685  cd zaDom
-  686  touch process.txt
+  686  touch processes.txt
   687  ls
   688  echo ps aux > process.txt
   689  cat processes.txt
