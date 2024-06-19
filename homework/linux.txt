@@ -311,7 +311,7 @@ processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   
   701  cp processes.txt copy.txt
   707  mkdir backup
   709  mv copy.txt backup
-  737  grep -c "" processes.txt > selected.txt
+  737  wc -l processes.txt > selected.txt
   752  grep -c "/bin" >> selected.txt
   803  history | tail -n 110 > commands.txt
   804  cat commands.txt
