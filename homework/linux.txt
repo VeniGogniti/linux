@@ -307,11 +307,11 @@ processes.txt:228:stefx       9475  0.3  0.6 914180 112664 ?       Sl   06:48   
 processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   0:38 /usr/bin/zsh
   685  cd zaDom
   686  touch processes.txt
-  697  ps aux > process.txt
+  697  ps aux > processes.txt
   701  cp processes.txt copy.txt
   707  mkdir backup
   709  mv copy.txt backup
-  737  grep -rni . >> selected.txt
-  752  grep -rni "/bin" >> selected.txt
+  737  grep -c "" processes.txt > selected.txt
+  752  grep -c "/bin" >> selected.txt
   803  history | tail -n 110 > commands.txt
   804  cat commands.txt
