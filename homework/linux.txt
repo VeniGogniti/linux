@@ -308,45 +308,9 @@ processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   
   685  cd zaDom
   686  touch processes.txt
   697  ps aux > process.txt
-  698  cat process.txt
-  699  clear
-  700  ls
-  701  cp process.txt copy.txt
-  702  mv process.txt processes.txt
-  703  ls
-  704  cat copy.txt
-  705  cat processes.txt
-  706  clear
+  701  cp processes.txt copy.txt
   707  mkdir backup
-  708  ls
   709  mv copy.txt backup
-  710  ls
-  711  cd backup
-  712  ls
-  713  man cat
-  714  cat -n copy.txt
-  715  cat copy.txt
-  716  man grep
-  717  ls
-  718  grep -n 
-  719  grep copy.txt
-  720  grep -rni copy.txt *
-  721  cat copy.txt
-  722  grep -rni .
-  723  grep -n .
-  724  grep -rni .
-  725  grep -rni
-  726  grep -rni .
-  727  grep -r .
-  728  grep -ri .
-  729  grep -i .
-  730  grep -ni .
-  731  man grep
-  732  grep -ri .
-  733  grep -rn .
-  734  grep -rni .
-  735  clear
-  736  grep -rni .
   737  grep -rni . > selected.txt
   738  ls
   739  cat selected.txt
