@@ -391,7 +391,7 @@ processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   
   780  ls
   781  cd -
   782  ls
-  783  grep -rni "/bin" >> backup/selected.txt
+  783  grep -rni "/bin" >> selected.txt
   784  ls
   785  cd backup
   786  ls
