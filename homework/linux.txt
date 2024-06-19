@@ -311,59 +311,7 @@ processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   
   701  cp processes.txt copy.txt
   707  mkdir backup
   709  mv copy.txt backup
-  737  grep -rni . > selected.txt
-  738  ls
-  739  cat selected.txt
+  737  grep -rni . >> selected.txt
   752  grep -rni "/bin" >> selected.txt
-  753  cat processes.txt
-  754  ls
-  755  cd backup
-  756  ls
-  757  cat copy.txt
-  758  cat selected.txt
-  759  cd-
-  760  cd -
-  761  ls
-  762  cd backup
-  763  ls
-  764  mv copy.txt /home/stefx/zaDom/processes.txt
-  765  ls
-  766  cd
-  767  ls
-  768  cd zaDom
-  769  ls
-  770  ps aux > processes.txt
-  771  cat processes.txt
-  772  ls
-  773  cp processes.txt backup copy.txt
-  774  cp processes.txt backup/copy.txt
-  775  ls
-  776  cat processes.txt
-  777  cd backup
-  778  ls
-  779  cat copy.txt
-  780  ls
-  781  cd -
-  782  ls
-  783  grep -rni "/bin" >> selected.txt
-  784  ls
-  785  cd backup
-  786  ls
-  787  cat selected.txt
-  788  history
-  789  grep -rni history
-  790  ls
-  791  grep -rni history > commands.txt
-  792  ls
-  793  cat commands.txt
-  794  history > commands.txt
-  795  cat commands.txt
-  796  history > commands.txt | tail -n 110
-  797  cat commands.txt
-  798  history commands.txt | tail -n 110 > commands.txt
-  799  history > commands.txt | tail -n 110
-  800  cat commands.txt
-  801  clear
-  802  cat commands.txt
   803  history | tail -n 110 > commands.txt
   804  cat commands.txt
