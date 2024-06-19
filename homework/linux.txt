@@ -1,0 +1,427 @@
+└─$ cat selected.txt commands.txt 
+copy.txt:1:USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+copy.txt:2:root           1  0.0  0.0  22704 12792 ?        Ss   06:25   0:01 /sbin/init splash
+copy.txt:3:root           2  0.0  0.0      0     0 ?        S    06:25   0:00 [kthreadd]
+copy.txt:4:root           3  0.0  0.0      0     0 ?        S    06:25   0:00 [pool_workqueue_release]
+copy.txt:5:root           4  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-rcu_g]
+copy.txt:6:root           5  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-rcu_p]
+copy.txt:7:root           6  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-slub_]
+copy.txt:8:root           7  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-netns]
+copy.txt:9:root           9  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/0:0H-events_highpri]
+copy.txt:10:root          12  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-mm_pe]
+copy.txt:11:root          13  0.0  0.0      0     0 ?        I    06:25   0:00 [rcu_tasks_kthread]
+copy.txt:12:root          14  0.0  0.0      0     0 ?        I    06:25   0:00 [rcu_tasks_rude_kthread]
+copy.txt:13:root          15  0.0  0.0      0     0 ?        I    06:25   0:00 [rcu_tasks_trace_kthread]
+copy.txt:14:root          16  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/0]
+copy.txt:15:root          17  0.0  0.0      0     0 ?        I    06:25   0:26 [rcu_preempt]
+copy.txt:16:root          18  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/0]
+copy.txt:17:root          19  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/0]
+copy.txt:18:root          20  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/0]
+copy.txt:19:root          21  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/1]
+copy.txt:20:root          22  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/1]
+copy.txt:21:root          23  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/1]
+copy.txt:22:root          24  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/1]
+copy.txt:23:root          26  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/1:0H-events_highpri]
+copy.txt:24:root          27  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/2]
+copy.txt:25:root          28  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/2]
+copy.txt:26:root          29  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/2]
+copy.txt:27:root          30  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/2]
+copy.txt:28:root          32  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/2:0H-kblockd]
+copy.txt:29:root          33  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/3]
+copy.txt:30:root          34  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/3]
+copy.txt:31:root          35  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/3]
+copy.txt:32:root          36  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/3]
+copy.txt:33:root          38  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/3:0H-events_highpri]
+copy.txt:34:root          39  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/4]
+copy.txt:35:root          40  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/4]
+copy.txt:36:root          41  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/4]
+copy.txt:37:root          42  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/4]
+copy.txt:38:root          44  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/4:0H-events_highpri]
+copy.txt:39:root          45  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/5]
+copy.txt:40:root          46  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/5]
+copy.txt:41:root          47  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/5]
+copy.txt:42:root          48  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/5]
+copy.txt:43:root          50  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/5:0H-events_highpri]
+copy.txt:44:root          51  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/6]
+copy.txt:45:root          52  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/6]
+copy.txt:46:root          53  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/6]
+copy.txt:47:root          54  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/6]
+copy.txt:48:root          56  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/6:0H-events_highpri]
+copy.txt:49:root          57  0.0  0.0      0     0 ?        S    06:25   0:00 [cpuhp/7]
+copy.txt:50:root          58  0.0  0.0      0     0 ?        S    06:25   0:00 [idle_inject/7]
+copy.txt:51:root          59  0.0  0.0      0     0 ?        S    06:25   0:00 [migration/7]
+copy.txt:52:root          60  0.0  0.0      0     0 ?        S    06:25   0:00 [ksoftirqd/7]
+copy.txt:53:root          71  0.0  0.0      0     0 ?        S    06:25   0:00 [kdevtmpfs]
+copy.txt:54:root          72  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-inet_]
+copy.txt:55:root          73  0.0  0.0      0     0 ?        S    06:25   0:00 [kauditd]
+copy.txt:56:root          74  0.0  0.0      0     0 ?        S    06:25   0:00 [khungtaskd]
+copy.txt:57:root          75  0.0  0.0      0     0 ?        S    06:25   0:00 [oom_reaper]
+copy.txt:58:root          76  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-write]
+copy.txt:59:root          77  0.0  0.0      0     0 ?        S    06:25   0:01 [kcompactd0]
+copy.txt:60:root          78  0.0  0.0      0     0 ?        SN   06:25   0:00 [ksmd]
+copy.txt:61:root          79  0.0  0.0      0     0 ?        SN   06:25   0:01 [khugepaged]
+copy.txt:62:root          80  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-kinte]
+copy.txt:63:root          81  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-kbloc]
+copy.txt:64:root          82  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-blkcg]
+copy.txt:65:root          83  0.0  0.0      0     0 ?        S    06:25   0:00 [irq/9-acpi]
+copy.txt:66:root          90  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-tpm_d]
+copy.txt:67:root          91  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-edac-]
+copy.txt:68:root          92  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-devfr]
+copy.txt:69:root          93  0.0  0.0      0     0 ?        I<   06:25   0:01 [kworker/0:1H-kblockd]
+copy.txt:70:root          94  0.0  0.0      0     0 ?        S    06:25   0:01 [kswapd0]
+copy.txt:71:root         100  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-kthro]
+copy.txt:72:root         102  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-acpi_]
+copy.txt:73:root         103  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-mld]
+copy.txt:74:root         104  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-ipv6_]
+copy.txt:75:root         109  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-kstrp]
+copy.txt:76:root         118  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-crypt]
+copy.txt:77:root         171  0.0  0.0      0     0 ?        I    06:25   0:00 [kworker/3:1-events]
+copy.txt:78:root         201  0.0  0.0      0     0 ?        I<   06:25   0:06 [kworker/7:1H-kblockd]
+copy.txt:79:root         211  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/3:1H-kblockd]
+copy.txt:80:root         212  0.0  0.0      0     0 ?        I<   06:25   0:01 [kworker/1:1H-kblockd]
+copy.txt:81:root         217  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/5:1H-kblockd]
+copy.txt:82:root         220  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/2:1H]
+copy.txt:83:root         221  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/4:1H-kblockd]
+copy.txt:84:root         226  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/6:1H-kblockd]
+copy.txt:85:root         257  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-ata_s]
+copy.txt:86:root         270  0.0  0.0      0     0 ?        S    06:25   0:00 [scsi_eh_0]
+copy.txt:87:root         271  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-scsi_]
+copy.txt:88:root         272  0.0  0.0      0     0 ?        S    06:25   0:00 [scsi_eh_1]
+copy.txt:89:root         273  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-scsi_]
+copy.txt:90:root         274  0.0  0.0      0     0 ?        S    06:25   0:00 [scsi_eh_2]
+copy.txt:91:root         275  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-scsi_]
+copy.txt:92:root         276  0.0  0.0      0     0 ?        S    06:25   0:00 [scsi_eh_3]
+copy.txt:93:root         277  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-scsi_]
+copy.txt:94:root         278  0.0  0.0      0     0 ?        S    06:25   0:00 [scsi_eh_4]
+copy.txt:95:root         279  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-scsi_]
+copy.txt:96:root         280  0.0  0.0      0     0 ?        S    06:25   0:02 [usb-storage]
+copy.txt:97:root         281  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-amdgp]
+copy.txt:98:root         282  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-ttm]
+copy.txt:99:root         283  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-uas]
+copy.txt:100:root         289  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-amdgp]
+copy.txt:101:root         290  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-amdgp]
+copy.txt:102:root         291  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-amdgp]
+copy.txt:103:root         292  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-amdgp]
+copy.txt:104:root         293  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-amdgp]
+copy.txt:105:root         294  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-dm_vb]
+copy.txt:106:root         299  0.0  0.0      0     0 ?        S    06:25   0:00 [card0-crtc0]
+copy.txt:107:root         300  0.0  0.0      0     0 ?        S    06:25   0:00 [card0-crtc1]
+copy.txt:108:root         301  0.0  0.0      0     0 ?        S    06:25   0:00 [card0-crtc2]
+copy.txt:109:root         302  0.0  0.0      0     0 ?        S    06:25   0:00 [card0-crtc3]
+copy.txt:110:root         303  0.0  0.0      0     0 ?        S    06:25   0:00 [card0-crtc4]
+copy.txt:111:root         304  0.0  0.0      0     0 ?        S    06:25   0:00 [card0-crtc5]
+copy.txt:112:root         361  0.0  0.0      0     0 ?        S    06:25   0:00 [jbd2/sda1-8]
+copy.txt:113:root         362  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-ext4-]
+copy.txt:114:root         423  0.0  0.1  67816 18184 ?        Ss   06:25   0:00 /usr/lib/systemd/systemd-journald
+copy.txt:115:root         464  0.0  0.0  29480  7632 ?        Ss   06:25   0:00 /usr/lib/systemd/systemd-udevd
+copy.txt:116:root         470  0.0  0.0      0     0 ?        S    06:25   0:00 [psimon]
+copy.txt:117:root         557  0.0  0.0      0     0 ?        S    06:25   0:00 [irq/36-mei_me]
+copy.txt:118:root         559  0.0  0.0      0     0 ?        S    06:25   0:00 [watchdogd]
+copy.txt:119:root         564  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-led_w]
+copy.txt:120:root         603  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-cfg80]
+copy.txt:121:root         640  0.0  0.0      0     0 ?        S    06:25   0:01 [jbd2/sda6-8]
+copy.txt:122:root         641  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-ext4-]
+copy.txt:123:root         696  0.0  0.0   8276  6464 ?        Ss   06:25   0:00 /usr/sbin/haveged --Foreground --verbose=1
+copy.txt:124:systemd+     697  0.0  0.0  91900  7936 ?        Ssl  06:25   0:00 /usr/lib/systemd/systemd-timesyncd
+copy.txt:125:root         699  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-rpcio]
+copy.txt:126:root         700  0.0  0.0      0     0 ?        I<   06:25   0:00 [kworker/R-xprti]
+copy.txt:127:root         728  0.0  0.0 311420  7132 ?        Ssl  06:25   0:00 /usr/libexec/accounts-daemon
+copy.txt:128:root         729  0.0  0.0   7048  2432 ?        Ss   06:25   0:00 /usr/sbin/cron -f
+copy.txt:129:message+     730  0.0  0.0  10916  5504 ?        Ss   06:25   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+copy.txt:130:polkitd      732  0.0  0.0 311168 10300 ?        Ssl  06:25   0:01 /usr/lib/polkit-1/polkitd --no-debug
+copy.txt:131:root         733  0.0  0.0  12156  6016 ?        Ss   06:25   0:00 /usr/sbin/smartd -n
+copy.txt:132:root         734  0.0  0.0  19112  8832 ?        Ss   06:25   0:00 /usr/lib/systemd/systemd-logind
+copy.txt:133:root         821  0.0  0.1 334992 19900 ?        Ssl  06:26   0:05 /usr/sbin/NetworkManager --no-daemon
+copy.txt:134:root         830  0.0  0.0 318508 12224 ?        Ssl  06:26   0:00 /usr/sbin/ModemManager
+copy.txt:135:root         878  0.0  0.0  18688 10752 ?        Ss   06:26   0:01 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+copy.txt:136:root         886  0.0  0.0 380352  6968 ?        SLsl 06:26   0:00 /usr/sbin/lightdm
+copy.txt:137:root         896  4.8  0.8 1425300 144788 tty7   Ssl+ 06:26  22:16 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+copy.txt:138:root         898  0.0  0.0   9480  2688 tty1     Ss+  06:26   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+copy.txt:139:root         930  0.0  0.0      0     0 ?        S    06:26   0:00 [psimon]
+copy.txt:140:rtkit        960  0.0  0.0  22824  3200 ?        SNsl 06:26   0:00 /usr/libexec/rtkit-daemon
+copy.txt:141:root        1049  0.0  0.0 234512  8020 ?        Sl   06:33   0:00 lightdm --session-child 13 24
+copy.txt:142:stefx       1059  0.0  0.0  21400 11776 ?        Ss   06:33   0:00 /usr/lib/systemd/systemd --user
+copy.txt:143:stefx       1060  0.0  0.0  21904  3260 ?        S    06:33   0:00 (sd-pam)
+copy.txt:144:stefx       1075  0.2  0.1 122388 20868 ?        S<sl 06:33   0:57 /usr/bin/pipewire
+copy.txt:145:stefx       1076  0.0  0.0  95620  5632 ?        Ssl  06:33   0:00 /usr/bin/pipewire -c filter-chain.conf
+copy.txt:146:stefx       1078  0.0  0.2 644324 32792 ?        S<sl 06:33   0:04 /usr/bin/wireplumber
+copy.txt:147:stefx       1079  0.5  0.1 117956 25688 ?        S<Lsl 06:33   2:26 /usr/bin/pipewire-pulse
+copy.txt:148:stefx       1080  0.0  0.0 314872  9856 ?        SLsl 06:33   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+copy.txt:149:stefx       1081  0.0  0.0  10228  5500 ?        Ss   06:33   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+copy.txt:150:stefx       1105  0.0  0.1 340920 25064 ?        Ssl  06:33   0:04 xfce4-session
+copy.txt:151:stefx       1155  0.0  0.0   9736  1540 ?        Ss   06:33   0:00 /usr/bin/ssh-agent x-session-manager
+copy.txt:152:stefx       1165  0.0  0.0 383188  7808 ?        Ssl  06:33   0:00 /usr/libexec/at-spi-bus-launcher
+copy.txt:153:stefx       1172  0.0  0.0   9576  4608 ?        S    06:33   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+copy.txt:154:stefx       1184  0.0  0.0 236440  8192 ?        Sl   06:33   0:02 /usr/libexec/at-spi2-registryd --use-gnome-session
+copy.txt:155:stefx       1196  0.0  0.0  81660  3328 ?        SLs  06:33   0:00 /usr/bin/gpg-agent --supervised
+copy.txt:156:stefx       1199  1.9  0.7 1418824 121588 ?      Sl   06:33   8:35 xfwm4 --display :0.0 --sm-client-id 2eb6c29be-fe4c-4248-b976-7332edaa44ea
+copy.txt:157:stefx       1203  0.0  0.0 312332  7296 ?        Ssl  06:33   0:00 /usr/libexec/gvfsd
+copy.txt:158:stefx       1209  0.0  0.0 457796  6528 ?        Sl   06:33   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+copy.txt:159:stefx       1229  0.0  0.1 308000 30244 ?        Sl   06:33   0:02 xfsettingsd --display :0.0 --sm-client-id 204799618-5b79-4092-82c1-0699eb6e1720
+copy.txt:160:root        1235  0.0  0.0 317200  9984 ?        Ssl  06:33   0:01 /usr/libexec/upowerd
+copy.txt:161:stefx       1242  0.0  0.2 466148 45872 ?        Sl   06:33   0:13 xfce4-panel --display :0.0 --sm-client-id 2da4617d7-af28-491f-9206-cb4bbf729dbe
+copy.txt:162:stefx       1247  0.0  0.3 546044 59492 ?        Sl   06:33   0:05 Thunar --sm-client-id 265b6d65c-8a7d-474a-a8a1-01b7cfe5207f --daemon
+copy.txt:163:stefx       1253  0.0  0.5 579080 87520 ?        Sl   06:33   0:09 xfdesktop --display :0.0 --sm-client-id 2cc032946-19bd-4dd7-a260-35c094a8493d
+copy.txt:164:stefx       1257  0.0  0.2 463892 43756 ?        Sl   06:33   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+copy.txt:165:stefx       1261  0.3  0.5 331960 88876 ?        Sl   06:33   1:30 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 16777228 cpugraph CPU Graph Graphical representation of the CPU load
+copy.txt:166:stefx       1262  0.0  0.2 461428 41176 ?        Sl   06:33   0:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777229 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+copy.txt:167:stefx       1263  0.1  0.1 343664 31532 ?        Sl   06:33   0:50 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+copy.txt:168:stefx       1264  0.0  0.2 460436 45288 ?        Sl   06:33   0:07 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777231 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+copy.txt:169:stefx       1265  0.0  0.2 462892 42144 ?        Sl   06:33   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777232 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+copy.txt:170:stefx       1266  0.0  0.2 389496 41120 ?        Sl   06:33   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777233 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+copy.txt:171:stefx       1270  0.0  0.2 389348 41172 ?        Sl   06:33   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 16777234 actions Action Buttons Log out, lock or other system actions
+copy.txt:172:stefx       1306  0.0  0.3 499356 58096 ?        Ssl  06:33   0:01 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+copy.txt:173:stefx       1317  0.0  0.1 259976 17024 ?        Sl   06:33   0:00 xfce4-power-manager --restart --sm-client-id 2010effa3-eb32-4968-a15e-069d9a26a741
+copy.txt:174:stefx       1339  0.0  0.0 258876 15744 ?        Sl   06:33   0:00 /usr/libexec/polkit-mate-authentication-agent-1
+copy.txt:175:stefx       1345  0.0  0.0 230356  5632 ?        Ssl  06:33   0:00 /usr/libexec/dconf-service
+copy.txt:176:stefx       1361  0.0  0.0 308376  6016 ?        Sl   06:33   0:00 /usr/libexec/geoclue-2.0/demos/agent
+copy.txt:177:stefx       1365  0.0  0.0  12636  1848 ?        Ssl  06:33   0:01 xcape -e Super_L Control_L Escape
+copy.txt:178:stefx       1375  0.0  0.2 623300 47244 ?        Sl   06:33   0:00 nm-applet
+copy.txt:179:stefx       1388  0.0  0.2  62868 36588 ?        S    06:33   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+copy.txt:180:stefx       1389  0.0  0.1 417120 31112 ?        Sl   06:33   0:00 light-locker
+copy.txt:181:stefx       1390  0.0  0.3 515180 51108 ?        Sl   06:33   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+copy.txt:182:stefx       1408  0.0  0.0 529144  8192 ?        Sl   06:33   0:00 xiccd
+copy.txt:183:colord      1435  0.0  0.0 318308 14016 ?        Ssl  06:33   0:00 /usr/libexec/colord
+copy.txt:184:stefx       1569  0.0  0.0 426544 12416 ?        Ssl  06:34   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+copy.txt:185:root        1573  0.0  0.0 470844 14912 ?        Ssl  06:34   0:02 /usr/libexec/udisks2/udisksd
+copy.txt:186:root        1593  0.0  0.0      0     0 ?        I<   06:34   0:00 [kworker/7:0H-kblockd]
+copy.txt:187:stefx       1598  0.0  0.0 388900  8064 ?        Ssl  06:34   0:00 /usr/libexec/gvfs-afc-volume-monitor
+copy.txt:188:stefx       1604  0.0  0.0 307976  6400 ?        Ssl  06:34   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+copy.txt:189:stefx       1609  0.0  0.0 307840  6144 ?        Ssl  06:34   0:00 /usr/libexec/gvfs-goa-volume-monitor
+copy.txt:190:stefx       1614  0.0  0.0 308936  6656 ?        Ssl  06:34   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+copy.txt:191:stefx       1615  0.0  0.0  49204  7680 ?        Ss   06:34   0:00 /usr/libexec/bluetooth/obexd
+copy.txt:192:stefx       1637  0.0  0.0 533804  8320 ?        Sl   06:34   0:00 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+copy.txt:193:stefx       1645  0.0  0.0 234372  6144 ?        Ssl  06:34   0:00 /usr/libexec/gvfsd-metadata
+copy.txt:194:stefx       3076  0.0  0.6 911396 109384 ?       Sl   06:37   0:02 /usr/bin/qterminal
+copy.txt:195:stefx       3087  0.0  0.0  10688  6008 pts/0    Ss   06:37   0:00 /usr/bin/zsh
+copy.txt:196:stefx       3151  0.1  1.2 1177993368 207556 pts/0 SLl+ 06:37   0:47 /usr/share/discord/Discord
+copy.txt:197:stefx       3162  0.0  0.3 33803024 49920 pts/0  S+   06:37   0:00 /usr/share/discord/Discord --type=zygote --no-zygote-sandbox
+copy.txt:198:stefx       3163  0.0  0.3 33803012 50048 pts/0  S+   06:37   0:00 /usr/share/discord/Discord --type=zygote
+copy.txt:199:stefx       3165  0.0  0.0 33803012 10628 pts/0  S+   06:37   0:00 /usr/share/discord/Discord --type=zygote
+copy.txt:200:stefx       3187  0.0  0.0 33575592 3072 ?       Sl   06:37   0:00 /usr/share/discord/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/stefx/.config/discord/Crashpad --url=https://f.a.k/e --annotation=_productName=discord --annotation=_version=0.0.57 --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=28.2.10 --initial-client-fd=46 --shared-client-connection
+copy.txt:201:stefx       3226  0.0  0.1 489304 17408 ?        Ssl  06:37   0:00 /usr/libexec/xdg-desktop-portal
+copy.txt:202:stefx       3228  1.4  1.1 34326540 184780 pts/0 Sl+  06:37   6:32 /usr/share/discord/Discord --type=gpu-process --crashpad-handler-pid=3187 --enable-crash-reporter=52ad9d65-0878-43b0-a593-45810fea045c,no_channel --user-data-dir=/home/stefx/.config/discord --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,13624429748641503284,8469413862097504753,262144 --enable-features=kWebSQLAccess --disable-features=HardwareMediaKeyHandling,MediaSessionService,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+copy.txt:203:stefx       3237  0.0  0.0 609680  7168 ?        Ssl  06:37   0:00 /usr/libexec/xdg-document-portal
+copy.txt:204:stefx       3241  0.0  0.0 311132  6912 ?        Ssl  06:37   0:00 /usr/libexec/xdg-permission-store
+copy.txt:205:root        3248  0.0  0.0   2496  1664 ?        Ss   06:37   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+copy.txt:206:stefx       3253  0.0  0.1 412180 21928 ?        Ssl  06:37   0:00 /usr/libexec/xdg-desktop-portal-gtk
+copy.txt:207:stefx       3267  0.0  0.4 33885864 77184 pts/0  Sl+  06:37   0:09 /usr/share/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3187 --enable-crash-reporter=52ad9d65-0878-43b0-a593-45810fea045c,no_channel --user-data-dir=/home/stefx/.config/discord --secure-schemes=disclip --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,13624429748641503284,8469413862097504753,262144 --enable-features=kWebSQLAccess --disable-features=HardwareMediaKeyHandling,MediaSessionService,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+copy.txt:208:root        3364  0.0  0.0 611508  8064 ?        Ssl  06:37   0:00 /usr/sbin/pcscd --foreground --auto-exit
+copy.txt:209:stefx       3396  4.2  2.4 1203857928 399124 pts/0 Sl+ 06:37  18:49 /usr/share/discord/Discord --type=renderer --crashpad-handler-pid=3187 --enable-crash-reporter=52ad9d65-0878-43b0-a593-45810fea045c,no_channel --user-data-dir=/home/stefx/.config/discord --secure-schemes=disclip --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip --app-path=/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1718771143760488 --launch-time-ticks=692751392 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,13624429748641503284,8469413862097504753,262144 --enable-features=kWebSQLAccess --disable-features=HardwareMediaKeyHandling,MediaSessionService,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+copy.txt:210:stefx       3472  0.0  0.3 33930488 59904 pts/0  Sl+  06:37   0:01 /usr/share/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3187 --enable-crash-reporter=52ad9d65-0878-43b0-a593-45810fea045c,no_channel --user-data-dir=/home/stefx/.config/discord --secure-schemes=disclip --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,13624429748641503284,8469413862097504753,262144 --enable-features=kWebSQLAccess --disable-features=HardwareMediaKeyHandling,MediaSessionService,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+copy.txt:211:stefx       3642  0.0  0.0  14012  6948 pts/1    Ss   06:37   0:00 /usr/bin/zsh
+copy.txt:212:stefx       3803  0.6  2.7 3373368 457156 pts/1  Sl+  06:37   2:55 ./betterbird
+copy.txt:213:stefx       4040  0.0  0.6 2439696 98796 pts/1   Sl+  06:37   0:00 /home/stefx/Programs/betterbird/betterbird-bin -contentproc -childID 1 -isForBrowser -prefsLen 7503 -prefMapSize 253320 -jsInitLen 240916 -parentBuildID 20240610131810 -appDir /home/stefx/Programs/betterbird {2510b590-77e6-43c5-a91d-a85907ecbbf5} 3803 tab
+copy.txt:214:stefx       4424  0.0  0.0  10692  6064 pts/2    Ss   06:38   0:00 /usr/bin/zsh
+copy.txt:215:stefx       4466  0.8  1.7 34312320 280928 pts/2 SLl+ 06:38   3:37 /opt/vivaldi/vivaldi-bin
+copy.txt:216:stefx       4469  0.0  0.0  15020  2816 pts/2    S+   06:38   0:00 cat
+copy.txt:217:stefx       4470  0.0  0.0  15020  2688 pts/2    S+   06:38   0:00 cat
+copy.txt:218:stefx       4480  0.0  0.0 33583428 3968 ?       Sl   06:38   0:00 /opt/vivaldi/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/stefx/.config/vivaldi/Crash Reports --url=https://crash.vivaldi.com/submit --annotation=channel=stable --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=6.7.3329.41 --initial-client-fd=5 --shared-client-connection
+copy.txt:219:stefx       4482  0.0  0.0 33575216 3584 ?       Sl   06:38   0:00 /opt/vivaldi/chrome_crashpad_handler --no-periodic-tasks --no-rate-limit --monitor-self-annotation=ptype=crashpad-handler --database=/home/stefx/.config/vivaldi/Crash Reports --url=https://crash.vivaldi.com/submit --annotation=channel=stable --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=6.7.3329.41 --initial-client-fd=4 --shared-client-connection
+copy.txt:220:stefx       4488  0.0  0.3 33937824 59264 pts/2  S+   06:38   0:00 /opt/vivaldi/vivaldi-bin --type=zygote --no-zygote-sandbox --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable
+copy.txt:221:stefx       4489  0.0  0.3 33937816 59520 pts/2  S+   06:38   0:00 /opt/vivaldi/vivaldi-bin --type=zygote --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable
+copy.txt:222:stefx       4491  0.0  0.0 33937844 15960 pts/2  S+   06:38   0:00 /opt/vivaldi/vivaldi-bin --type=zygote --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable
+copy.txt:223:stefx       4520  7.4  1.6 34494276 267476 pts/2 Sl+  06:38  33:11 /opt/vivaldi/vivaldi-bin --type=gpu-process --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --running-vivaldi --shared-files --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:224:stefx       4523  0.6  0.7 33971200 121044 pts/2 Sl+  06:38   2:43 /opt/vivaldi/vivaldi-bin --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --running-vivaldi --service-sandbox-type=none --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:225:stefx       4565  0.0  0.3 33996768 54396 pts/2  Sl+  06:38   0:01 /opt/vivaldi/vivaldi-bin --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --running-vivaldi --service-sandbox-type=utility --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:226:stefx       4613  2.7  1.5 1191446208 247548 pts/2 Sl+ 06:38  12:27 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=776714538 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:227:stefx       4780  0.3  0.4 34085592 80884 pts/2  Sl+  06:38   1:25 /opt/vivaldi/vivaldi-bin --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --running-vivaldi --service-sandbox-type=none --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:228:stefx       9475  0.3  0.6 913420 111968 ?       Sl   06:48   1:22 /usr/bin/qterminal
+copy.txt:229:stefx       9478  0.1  0.0  16868 10144 pts/3    Ss   06:48   0:27 /usr/bin/zsh
+copy.txt:230:root       12283  0.0  0.0      0     0 ?        I    06:50   0:01 [kworker/1:1-events]
+copy.txt:231:root       20592  0.0  0.0      0     0 ?        I    07:07   0:00 [kworker/1:2-events_freezable_power_]
+copy.txt:232:stefx      84018  0.0  1.1 1187058392 184544 pts/2 Sl+ 09:13   0:09 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=66 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=10093034252 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:233:stefx      84051  0.0  0.6 1187045480 112676 pts/2 Sl+ 09:13   0:00 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=67 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=10095718567 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:234:stefx      92490  0.0  0.0 460220  8192 ?        Sl   09:30   0:00 /usr/libexec/gvfsd-network --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+copy.txt:235:stefx      92515  0.0  0.0 388688  8576 ?        Sl   09:30   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.21 /org/gtk/gvfs/exec_spaw/3
+copy.txt:236:stefx      98281  0.7  1.4 1187093988 240516 pts/2 Sl+ 09:42   1:55 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=11792453504 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:237:stefx     101778  0.0  0.8 1187073048 131916 pts/2 Sl+ 09:49   0:00 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=84 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=12200374734 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:238:stefx     103991  0.0  0.0 318404  9088 ?        Sl   09:53   0:00 /usr/libexec/gvfsd-http --spawner :1.21 /org/gtk/gvfs/exec_spaw/8
+copy.txt:239:root      114048  0.0  0.0      0     0 ?        I    10:12   0:00 [kworker/0:0-events]
+copy.txt:240:root      137447  0.0  0.0      0     0 ?        I    10:59   0:00 [kworker/4:0-cgroup_destroy]
+copy.txt:241:root      138224  0.0  0.0      0     0 ?        I    11:00   0:00 [kworker/2:2-events]
+copy.txt:242:root      186586  0.0  0.0      0     0 ?        I    12:39   0:00 [kworker/4:1-mm_percpu_wq]
+copy.txt:243:root      195596  0.1  0.0      0     0 ?        I    12:56   0:07 [kworker/u16:4-sdma0]
+copy.txt:244:root      198638  0.0  0.0      0     0 ?        I    13:02   0:00 [kworker/1:3-ata_sff]
+copy.txt:245:root      204190  0.0  0.0      0     0 ?        I    13:12   0:03 [kworker/u16:3-sdma1]
+copy.txt:246:root      204482  0.0  0.0      0     0 ?        I    13:13   0:00 [kworker/6:1-events]
+copy.txt:247:root      204483  0.0  0.0      0     0 ?        I    13:13   0:00 [kworker/6:2-events]
+copy.txt:248:root      209898  0.0  0.0      0     0 ?        I    13:24   0:00 [kworker/5:0-events]
+copy.txt:249:root      209960  0.0  0.0      0     0 ?        I    13:24   0:00 [kworker/3:0-events]
+copy.txt:250:root      216345  0.0  0.0      0     0 ?        I    13:37   0:00 [kworker/7:0-events]
+copy.txt:251:root      217268  0.0  0.0      0     0 ?        I    13:39   0:00 [kworker/5:1]
+copy.txt:252:root      219013  0.0  0.0      0     0 ?        I    13:42   0:00 [kworker/2:0-mm_percpu_wq]
+copy.txt:253:root      221752  0.0  0.0      0     0 ?        I<   13:48   0:00 [kworker/u17:8-ttm]
+copy.txt:254:root      221753  0.0  0.0      0     0 ?        I<   13:48   0:00 [kworker/u17:9-ttm]
+copy.txt:255:root      221758  0.1  0.0      0     0 ?        D    13:48   0:01 [kworker/u16:2+events_unbound]
+copy.txt:256:root      221884  0.0  0.0      0     0 ?        I    13:48   0:00 [kworker/7:1-cgroup_destroy]
+copy.txt:257:root      222226  0.0  0.0      0     0 ?        I    13:48   0:00 [kworker/0:2]
+copy.txt:258:stefx     222594  0.7  1.3 1187124176 217364 pts/2 Sl+ 13:49   0:06 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=142 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=26629729229 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:259:stefx     222861  0.9  1.1 1189233108 187536 pts/2 Sl+ 13:50   0:07 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=146 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=26657647500 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:260:root      224659  0.1  0.0      0     0 ?        I    13:53   0:00 [kworker/u16:5-gfx]
+copy.txt:261:root      226251  0.0  0.0      0     0 ?        I    13:56   0:00 [kworker/1:0-mm_percpu_wq]
+copy.txt:262:root      227360  0.1  0.0      0     0 ?        D    13:58   0:00 [kworker/u16:0+events_unbound]
+copy.txt:263:stefx     228332  0.0  0.0 307604  6016 ?        Sl   14:00   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+copy.txt:264:root      228391  0.2  0.0      0     0 ?        I    14:00   0:00 [kworker/u16:1-phy0]
+copy.txt:265:root      228882  0.0  0.0      0     0 ?        I    14:01   0:00 [kworker/1:4-mm_percpu_wq]
+copy.txt:266:stefx     229364 33.2  1.4 1187111812 239996 pts/2 Sl+ 14:02   0:26 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=155 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=27431423070 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:267:stefx     229432  0.0  0.6 1187037608 109620 pts/2 Sl+ 14:03   0:00 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=157 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=27437350732 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:268:stefx     229441  0.1  0.7 1187055688 121028 pts/2 Sl+ 14:03   0:00 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=158 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=27437552301 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:269:stefx     229450  0.0  0.4 1186995976 68288 pts/2 Sl+ 14:03   0:00 /opt/vivaldi/vivaldi-bin --type=renderer --crashpad-handler-pid=4480 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=159 --time-ticks-at-unix-epoch=-1718771143760489 --running-vivaldi --launch-time-ticks=27437572714 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10565190065155468754,5685299254415017819,262144 --variations-seed-version
+copy.txt:270:stefx     230093  100  0.0  11304  4096 pts/3    R+   14:04   0:00 ps aux
+backup/copy.txt:129:message+     730  0.0  0.0  10916  5504 ?        Ss   06:25   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+backup/copy.txt:144:stefx       1075  0.2  0.1 121320 20140 ?        S<sl 06:33   0:59 /usr/bin/pipewire
+backup/copy.txt:145:stefx       1076  0.0  0.0  95620  5632 ?        Ssl  06:33   0:00 /usr/bin/pipewire -c filter-chain.conf
+backup/copy.txt:146:stefx       1078  0.0  0.2 644324 32792 ?        S<sl 06:33   0:04 /usr/bin/wireplumber
+backup/copy.txt:147:stefx       1079  0.5  0.1 117348 25208 ?        S<sl 06:33   2:30 /usr/bin/pipewire-pulse
+backup/copy.txt:148:stefx       1080  0.0  0.0 314872  9856 ?        SLsl 06:33   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+backup/copy.txt:149:stefx       1081  0.0  0.0  10228  5500 ?        Ss   06:33   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+backup/copy.txt:151:stefx       1155  0.0  0.0   9736  1540 ?        Ss   06:33   0:00 /usr/bin/ssh-agent x-session-manager
+backup/copy.txt:153:stefx       1172  0.0  0.0   9576  4608 ?        S    06:33   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+backup/copy.txt:155:stefx       1196  0.0  0.0  81660  3328 ?        SLs  06:33   0:00 /usr/bin/gpg-agent --supervised
+backup/copy.txt:179:stefx       1388  0.0  0.2  62868 36588 ?        S    06:33   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+backup/copy.txt:181:stefx       1390  0.0  0.3 515180 51108 ?        Sl   06:33   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+backup/copy.txt:194:stefx       3076  0.0  0.6 911396 109384 ?       Sl   06:37   0:02 /usr/bin/qterminal
+backup/copy.txt:195:stefx       3087  0.0  0.0  10688  6008 pts/0    Ss   06:37   0:00 /usr/bin/zsh
+backup/copy.txt:211:stefx       3642  0.0  0.0  14012  6948 pts/1    Ss   06:37   0:00 /usr/bin/zsh
+backup/copy.txt:214:stefx       4424  0.0  0.0  10692  6064 pts/2    Ss   06:38   0:00 /usr/bin/zsh
+backup/copy.txt:228:stefx       9475  0.3  0.6 914180 112664 ?       Sl   06:48   1:47 /usr/bin/qterminal
+backup/copy.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   0:38 /usr/bin/zsh
+processes.txt:129:message+     730  0.0  0.0  10916  5504 ?        Ss   06:25   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+processes.txt:144:stefx       1075  0.2  0.1 121320 20140 ?        S<sl 06:33   0:59 /usr/bin/pipewire
+processes.txt:145:stefx       1076  0.0  0.0  95620  5632 ?        Ssl  06:33   0:00 /usr/bin/pipewire -c filter-chain.conf
+processes.txt:146:stefx       1078  0.0  0.2 644324 32792 ?        S<sl 06:33   0:04 /usr/bin/wireplumber
+processes.txt:147:stefx       1079  0.5  0.1 117348 25208 ?        S<sl 06:33   2:30 /usr/bin/pipewire-pulse
+processes.txt:148:stefx       1080  0.0  0.0 314872  9856 ?        SLsl 06:33   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+processes.txt:149:stefx       1081  0.0  0.0  10228  5500 ?        Ss   06:33   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+processes.txt:151:stefx       1155  0.0  0.0   9736  1540 ?        Ss   06:33   0:00 /usr/bin/ssh-agent x-session-manager
+processes.txt:153:stefx       1172  0.0  0.0   9576  4608 ?        S    06:33   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+processes.txt:155:stefx       1196  0.0  0.0  81660  3328 ?        SLs  06:33   0:00 /usr/bin/gpg-agent --supervised
+processes.txt:179:stefx       1388  0.0  0.2  62868 36588 ?        S    06:33   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+processes.txt:181:stefx       1390  0.0  0.3 515180 51108 ?        Sl   06:33   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+processes.txt:194:stefx       3076  0.0  0.6 911396 109384 ?       Sl   06:37   0:02 /usr/bin/qterminal
+processes.txt:195:stefx       3087  0.0  0.0  10688  6008 pts/0    Ss   06:37   0:00 /usr/bin/zsh
+processes.txt:211:stefx       3642  0.0  0.0  14012  6948 pts/1    Ss   06:37   0:00 /usr/bin/zsh
+processes.txt:214:stefx       4424  0.0  0.0  10692  6064 pts/2    Ss   06:38   0:00 /usr/bin/zsh
+processes.txt:228:stefx       9475  0.3  0.6 914180 112664 ?       Sl   06:48   1:47 /usr/bin/qterminal
+processes.txt:229:stefx       9478  0.1  0.0  16868 10372 pts/3    Ss   06:48   0:38 /usr/bin/zsh
+  685  cd zaDom
+  686  touch process.txt
+  687  ls
+  688  echo ps aux > process.txt
+  689  cat process.txt
+  690  ps aux echo > process.txt
+  691  ps aux -echo > process.txt
+  692  ps aux -name > process.txt
+  693  ps aux / -name > process.txt
+  694  ps aux / -name 1> process.txt
+  695  cat process.txt
+  696  ps aux
+  697  ps aux > process.txt
+  698  cat process.txt
+  699  clear
+  700  ls
+  701  cp process.txt copy.txt
+  702  mv process.txt processes.txt
+  703  ls
+  704  cat copy.txt
+  705  cat processes.txt
+  706  clear
+  707  mkdir backup
+  708  ls
+  709  mv copy.txt backup
+  710  ls
+  711  cd backup
+  712  ls
+  713  man cat
+  714  cat -n copy.txt
+  715  cat copy.txt
+  716  man grep
+  717  ls
+  718  grep -n 
+  719  grep copy.txt
+  720  grep -rni copy.txt *
+  721  cat copy.txt
+  722  grep -rni .
+  723  grep -n .
+  724  grep -rni .
+  725  grep -rni
+  726  grep -rni .
+  727  grep -r .
+  728  grep -ri .
+  729  grep -i .
+  730  grep -ni .
+  731  man grep
+  732  grep -ri .
+  733  grep -rn .
+  734  grep -rni .
+  735  clear
+  736  grep -rni .
+  737  grep -rni . > selected.txt
+  738  ls
+  739  cat selected.txt
+  740  grep -rni processes.txt
+  741  grep -rni "processes.txt"
+  742  man grep
+  743  grep "processes.txt" -rni
+  744  ls
+  745  cd -
+  746  ls
+  747  grep -rni . processes.txt
+  748  grep -rni . processes.txt /bin
+  749  grep -rni . processes.txt "/bin"
+  750  grep -i "/bin" processes.txt
+  751  grep -rni "/bin" processes.txt
+  752  grep -rni "/bin" >> processes.txt
+  753  cat processes.txt
+  754  ls
+  755  cd backup
+  756  ls
+  757  cat copy.txt
+  758  cat selected.txt
+  759  cd-
+  760  cd -
+  761  ls
+  762  cd backup
+  763  ls
+  764  mv copy.txt /home/stefx/zaDom/processes.txt
+  765  ls
+  766  cd
+  767  ls
+  768  cd zaDom
+  769  ls
+  770  ps aux > processes.txt
+  771  cat processes.txt
+  772  ls
+  773  cp processes.txt backup copy.txt
+  774  cp processes.txt backup/copy.txt
+  775  ls
+  776  cat processes.txt
+  777  cd backup
+  778  ls
+  779  cat copy.txt
+  780  ls
+  781  cd -
+  782  ls
+  783  grep -rni "/bin" >> backup/selected.txt
+  784  ls
+  785  cd backup
+  786  ls
+  787  cat selected.txt
+  788  history
+  789  grep -rni history
+  790  ls
+  791  grep -rni history > commands.txt
+  792  ls
+  793  cat commands.txt
+  794  history > commands.txt
+  795  cat commands.txt
+  796  history > commands.txt | tail -n 110
+  797  cat commands.txt
+  798  history commands.txt | tail -n 110 > commands.txt
+  799  history > commands.txt | tail -n 110
+  800  cat commands.txt
+  801  clear
+  802  cat commands.txt
+  803  history | tail -n 110 > commands.txt
+  804  cat commands.txt
