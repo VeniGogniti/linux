@@ -25,3 +25,7 @@
 *  względne - względem aktualnego katalogu (`pwd`)
 
 siemano
+hello
+Hello World
+sth more
+
